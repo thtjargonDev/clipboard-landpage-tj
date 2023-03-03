@@ -1,0 +1,428 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.6rem;
+}
+
+svg {
+  margin-bottom: 3rem;
+}
+
+h4 {
+  font-size: 2.4rem;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 2rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  background-image: url(./bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+/* hero section */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.hero-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 11rem;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.hero-logo img {
+  width: 100%;
+}
+
+.hero h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 1.5rem;
+}
+
+.hero p {
+  font-size: 1.7rem;
+  color: hsl(201, 11%, 66%);
+  line-height: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+.hero-text {
+  max-width: 60rem;
+  word-spacing: 0.1rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.hero-buttons .buttons--01 {
+  font-size: 1.8rem;
+  color: white;
+  background-color: hsl(171, 66%, 44%);
+  width: 20rem;
+  padding: 1.5rem;
+  border: none;
+  border-radius: 3.5rem;
+}
+
+.hero-buttons .buttons--02 {
+  font-size: 1.8rem;
+  color: white;
+  background-color: hsl(233, 100%, 69%);
+  width: 20rem;
+  padding: 1.5rem;
+  border: none;
+  border-radius: 3.5rem;
+}
+
+/* section--01*/
+.article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding-top: 100px; */
+  padding-bottom: 7.5rem;
+}
+
+.article h3 {
+  font-size: 3.2rem;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.article p {
+  font-size: 1.7rem;
+  color: hsl(201, 11%, 66%);
+  line-height: 2, 5rem;
+}
+
+.article-text {
+  max-width: 60rem;
+}
+
+/* section--02 */
+
+.containers {
+  max-width: 114rem;
+  margin: 0;
+}
+
+.contents {
+  display: flex;
+  gap: 10rem;
+  margin-bottom: 10rem;
+}
+
+.contents--img {
+  width: 60%;
+}
+
+/* .contents img {
+  max-width: 67.5rem;
+} */
+
+.contents--text {
+  max-width: 35rem;
+  margin-top: 7rem;
+}
+
+.contents--text h4 {
+  font-size: 2.4rem;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 1rem;
+}
+
+.contents--text p {
+  color: hsl(201, 11%, 66%);
+  line-height: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+.contents--texts .text--01 {
+  margin-bottom: 5rem;
+}
+
+.contents--texts .text--02 {
+  margin-bottom: 5rem;
+}
+
+/* section--03 */
+
+.index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+
+.index h3 {
+  font-size: 3.2rem;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.index p {
+  font-size: 1.7rem;
+  color: hsl(201, 11%, 66%);
+  line-height: 2.5rem;
+}
+
+.index--text {
+  max-width: 60rem;
+  margin-bottom: 10rem;
+}
+
+/* .index img {
+  max-width: 80rem;
+} */
+
+/* section--04 */
+
+.index--2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.index--2 h3 {
+  font-size: 3.2rem;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.index--2 p {
+  font-size: 1.7rem;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 5rem;
+}
+
+.container--1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1rem;
+  margin-bottom: 10rem;
+}
+
+/* .boxes {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+} */
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box--text {
+  max-width: 31rem;
+}
+
+.box--text p {
+  font-size: 1.5rem;
+  color: hsl(201, 11%, 66%);
+  word-spacing: 0.2rem;
+}
+
+.container--2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10rem;
+  margin-bottom: 10rem;
+}
+
+.image {
+  width: 12rem;
+}
+
+/* section--05 */
+.section--05 {
+  margin-bottom: 15rem;
+}
+
+.index--3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.index--3 h3 {
+  font-size: 3.2rem;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.index--3 p {
+  font-size: 1.5rem;
+  color: hsl(201, 11%, 66%);
+  word-spacing: 0.2rem;
+  margin-bottom: 5rem;
+}
+
+/* footer */
+footer {
+  background-color: hsl(204, 100%, 98%);
+}
+
+.footer-section {
+  display: flex;
+  padding: 5rem;
+  gap: 15rem;
+  justify-content: space-between;
+}
+
+.foot-logo {
+  width: 5rem;
+}
+
+.foot-logo img {
+  max-width: 100%;
+}
+
+.foot-text {
+  display: flex;
+  gap: 10rem;
+  line-height: 4.5rem;
+}
+
+.foot-text p {
+  font-size: 1.5rem;
+  color: hsl(201, 11%, 66%);
+}
+
+.foot-svgs {
+  position: relative;
+  /* left: 20rem; */
+}
+
+.foot-svgs > *:not(:last-child) {
+  margin-right: 0.8rem;
+}
+
+@media only screen and (max-width: 1100px) {
+  .container--2 {
+    padding: 0 1.6rem;
+  }
+
+  .contents {
+    gap: 6.4rem;
+  }
+
+  .contents--text {
+    padding-right: 1, 6rem;
+  }
+
+  .footer-section {
+    gap: 3.2rem;
+  }
+
+  .foot-text {
+    gap: 2.4rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .contents {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+  }
+
+  .contents--text {
+    text-align: center;
+  }
+
+  .container--2 {
+    flex-wrap: wrap;
+    gap: 4.8rem;
+  }
+
+  .container--1 {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  body {
+    text-align: center;
+  }
+
+  .header {
+    padding: 0 1.6rem;
+  }
+
+  .hero h2 {
+    text-align: center;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .hero-buttons .buttons--01,
+  .hero-buttons .buttons--02 {
+    width: 25rem;
+  }
+
+  .article h3,
+  .index h3,
+  .index--2 h3,
+  .index--3 h3 {
+    text-align: center;
+  }
+
+  .footer-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .foot-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.6rem;
+  }
+}
